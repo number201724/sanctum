@@ -1,6 +1,36 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/sanctum/compare/v2.11.2...master)
+## [Unreleased](https://github.com/laravel/sanctum/compare/v2.12.2...master)
+
+
+## [v2.12.2 (2021-11-16)](https://github.com/laravel/sanctum/compare/v2.12.1...v2.12.2)
+
+### Changed
+- Add guard to config ([f811d5c](https://github.com/laravel/sanctum/commit/f811d5c1e8123acf2626aa4a774a890efcc39d3f))
+
+
+## [v2.12.1 (2021-10-26)](https://github.com/laravel/sanctum/compare/v2.12.0...v2.12.1)
+
+### Changed
+- Rename `CheckScopes` and `CheckForAnyScope` to `CheckAbilities` and `CheckForAnyAbility` ([#312](https://github.com/laravel/sanctum/pull/312))
+
+
+## [v2.12.0 (2021-10-19)](https://github.com/laravel/sanctum/compare/v2.11.4...v2.12.0)
+
+### Added
+- Add CheckScopes and CheckForAnyScope Middleware ([#310](https://github.com/laravel/sanctum/pull/310))
+
+
+## [v2.11.4 (2021-10-13)](https://github.com/laravel/sanctum/compare/v2.11.3...v2.11.4)
+
+### Fixed
+- Revert "fix: replace hardcoded "web" guard by `config('sanctum.guard')`" ([#309](https://github.com/laravel/sanctum/pull/309))
+
+
+## [v2.11.3 (2021-10-12)](https://github.com/laravel/sanctum/compare/v2.11.2...v2.11.3)
+
+### Fixed
+- Replace hardcoded "web" guard by `config('sanctum.guard')` ([#307](https://github.com/laravel/sanctum/pull/307))
 
 
 ## [v2.11.2 (2021-06-15)](https://github.com/laravel/sanctum/compare/v2.11.1...v2.11.2)
